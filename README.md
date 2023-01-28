@@ -4,7 +4,7 @@ Boost your productivity and make your life easier as an Odoo developer
 
 [Homepage](https://odoo-ide.com) | [Blog](https://odoo-ide.com/blog) | [Issue Tracker](https://github.com/odoo-ide/vscode-odoo/issues)
 
-The extension is in the early stages of development. A lot of features are missing compared to the Odoo plugin for PyCharm (https://plugins.jetbrains.com/plugin/13499-odoo).
+The extension is in the early stages of development. A lot of features are missing compared to the [Odoo plugin for PyCharm](https://plugins.jetbrains.com/plugin/13499-odoo).
 
 ## Features
 
