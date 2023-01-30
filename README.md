@@ -11,6 +11,5 @@ This extension is in the early stages of development. A lot of features are miss
 
 
 ## Installation
-
 - Install this extension from [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=trinhanhngoc.vscode-odoo).
 - Open Settings and set `Python Language Server` to `None` for your Odoo workspaces because this extension uses a custom language server (based on [Pyright](https://github.com/microsoft/pyright)) for the Odoo framework.
