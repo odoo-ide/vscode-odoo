@@ -33,7 +33,6 @@ This extension is in the early stages of development. A lot of features are miss
 - Both the Odoo source code and your custom addons must be added to your VSCode workspace for the Odoo extension to work as expected. You can use the [multi-root workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces) feature to structure your Odoo workspace.
 
 ## Screenshots
-
 ![Model member completion](images/model-member-completion.png)
 ![Model name completion](images/model-name-completion.png)
 ![Model name navigation](images/model-name-navigation.png)
