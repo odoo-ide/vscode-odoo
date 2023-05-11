@@ -7,7 +7,6 @@ Boost your productivity and make your life easier as an Odoo developer
 This extension is in the early stages of development. A lot of features are missing compared to the [PyCharm plugin for Odoo](https://plugins.jetbrains.com/plugin/13499-odoo).
 
 ## Features
-
 - Resolve `odoo.addons.*` imports for built-in addons and custom addons.
 - Understand model inheritance mechanisms.
 - Type inference for:
