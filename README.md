@@ -12,6 +12,8 @@ This extension is in the early stages of development. A lot of features are miss
 - Type inference for:
   - `self` in model methods.
   - Relational fields.
+  - `env[...]`
+  - `super()` in model methods.
 - Code completion, navigation and validation for:
   - Model name:
     - `_inherit`, `_inherits` (model class attributes)
