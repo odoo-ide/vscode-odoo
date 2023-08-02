@@ -16,7 +16,7 @@ This extension is in the early stages of development. A lot of features are miss
 2. Install [PyDev.Debugger plugin for Odoo](https://github.com/odoo-ide/pydevd-odoo) to improve Odoo debugging.
 
 ## Notes
-- As of version 0.6.0, the Odoo plugin has built-in [Odoo Stubs](https://github.com/odoo-ide/odoo-stubs), so you don't need to add them manually anymore.
+- As of version 0.6.0, the Odoo plugin has built-in [odoo-stubs](https://github.com/odoo-ide/odoo-stubs), so you don't need to add them manually anymore.
 - The Odoo extension will automatically set `Python Language Server` to `None` in settings for Odoo workspaces because this extension uses a custom language server for the Odoo framework. If you have the Pyright extension installed, you should also disable it. Otherwise, you will have multiple language servers running with the same features that waste your system resources.
 - The Odoo extension is currently built on top of [Pyright](https://github.com/microsoft/pyright) so it inherits all features of Pyright.
 - Depending on how you structure your projects, the Odoo extension may not be able to resolve odoo imports. You can manually add the Odoo source code and your custom addons paths to settings as described in the [import resolution documentation](https://microsoft.github.io/pyright/#/import-resolution).
