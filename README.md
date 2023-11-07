@@ -9,10 +9,10 @@ This extension is in the early stages of development. A lot of features are miss
 ## Features
 - Resolve `odoo.addons.*` imports for built-in addons and custom addons.
 - Fully understand model inheritance mechanisms.
-- Code completion and navigation for module names, model names, field names,...
+- Code completion and navigation for module names, model names, field names, XML IDs,...
 
 ## Installation
-1. Install the Odoo extension from [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=trinhanhngoc.vscode-odoo).
+1. Install the Odoo IDE extension from [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=trinhanhngoc.vscode-odoo).
 2. Install [PyDev.Debugger plugin for Odoo](https://github.com/odoo-ide/pydevd-odoo) to improve Odoo debugging.
 
 ## Notes
