@@ -16,14 +16,16 @@ This extension is in the early stages of development. A lot of features are miss
 2. Install [PyDev.Debugger plugin for Odoo](https://github.com/odoo-ide/pydevd-odoo) to improve Odoo debugging.
 
 ## Notes
-- As of version 0.6.0, the Odoo plugin has built-in [odoo-stubs](https://github.com/odoo-ide/odoo-stubs), so you don't need to add them manually anymore.
-- The Odoo extension will automatically set `Python Language Server` to `None` in settings for Odoo workspaces because this extension uses a custom language server for the Odoo framework. If you have the Pyright extension installed, you should also disable it. Otherwise, you will have multiple language servers running with the same features that waste your system resources.
-- The Odoo extension is currently built on top of [Pyright](https://github.com/microsoft/pyright) so it inherits all features of Pyright.
-- Depending on how you structure your projects, the Odoo extension may not be able to resolve odoo imports. You can manually add the Odoo source code and your custom addons paths to settings as described in the [import resolution documentation](https://microsoft.github.io/pyright/#/import-resolution).
-- Both the Odoo source code and your custom addons must be added to your VSCode workspace for the Odoo extension to work as expected.
+- As of version 0.6.0, the Odoo IDE plugin has built-in [odoo-stubs](https://github.com/odoo-ide/odoo-stubs), so you don't need to add them manually anymore.
+- The Odoo IDE extension will automatically set `Python Language Server` to `None` in settings for Odoo workspaces because this extension uses a custom language server for the Odoo framework. If you have the [Pyright extension](https://marketplace.visualstudio.com/items?itemName=ms-pyright.pyright) installed, you should also disable it. Otherwise, you will have multiple language servers running with the same features that waste your system resources.
+- The Odoo IDE extension is built on top of [Pyright](https://github.com/microsoft/pyright) so it inherits all features of Pyright.
+- Depending on how you structure your projects, the Odoo IDE extension may not be able to resolve odoo imports. You can manually add the Odoo source code and your custom addons paths to settings as described in the [import resolution documentation](https://microsoft.github.io/pyright/#/import-resolution).
+- Both the Odoo source code and your custom addons must be added to your VSCode workspace for the Odoo IDE extension to work as expected.
 
 ## Screenshots
-![Model member completion](images/model-member-completion.png)
 ![Model name completion](images/model-name-completion.png)
 ![Model name navigation](images/model-name-navigation.png)
+![Model member completion](images/model-member-completion.png)
 ![Field name completion](images/field-name-completion.png)
+![View field name completion](images/view-field-name-completion.png)
+![View groups completion](images/view-groups-completion.png)
