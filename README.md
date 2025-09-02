@@ -16,9 +16,10 @@ This extension is in the early stages of development. A lot of features are miss
 2. Install [PyDev.Debugger plugin for Odoo](https://github.com/odoo-ide/pydevd-odoo) to improve Odoo debugging.
 
 ## Notes
-- Set the `python.analysis.typeCheckingMode` setting to `standard` to show diagnostics in Python files.
-- Depending on how you structure your projects, the Odoo IDE extension may not be able to resolve odoo symbols. You can manually add the Odoo source code and your custom addons paths to the `python.analysis.extraPaths` setting.
-- For a better code completion experience, turn on quick suggestion for `strings` in the `editor.quickSuggestions` setting.
+- Set the `python.analysis.typeCheckingMode` setting to `basic` or `standard` to enable diagnostics in Python files.
+- Depending on how you structure your projects, the Odoo IDE extension may not be able to resolve Odoo symbols. You can manually add the Odoo source code and your custom addons paths to the `python.analysis.extraPaths` setting.
+- For a better code completion experience, enable quick suggestion for `strings` in the `editor.quickSuggestions` setting.
+- If you use symbolic links, add them to the `files.watcherInclude` setting so the Odoo IDE extension can properly track file changes.
 - The Odoo IDE extension is built on top of [Pyright](https://github.com/microsoft/pyright) so it inherits all features of Pyright. If you have the [Pyright extension](https://marketplace.visualstudio.com/items?itemName=ms-pyright.pyright) installed, you should disable it. Otherwise, you will have multiple language servers running with the same features that waste your system resources.
 
 ## Screenshots
